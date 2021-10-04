@@ -1,0 +1,14 @@
+{
+  "name": "multiqr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Shivam Pandey",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.1.0"
+  }
+}

@@ -2,7 +2,9 @@ var QRCode = require("qrcode-svg");
 
 const inp = document.querySelectorAll(".inp");
 const outputDiv = document.querySelector(".output");
-
+inp[4].addEventListener("click", () => {
+  window.print();
+});
 inp[3].addEventListener("click", () => {
   //   basestr = inp[1].value + inp[2].value;
   let basestr = inp[0].value;

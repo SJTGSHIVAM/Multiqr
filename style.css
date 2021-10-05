@@ -11,3 +11,17 @@ body {
   justify-content: space-evenly;
   align-items: stretch;
 }
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .output,
+  .output * {
+    visibility: visible;
+  }
+  .output {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

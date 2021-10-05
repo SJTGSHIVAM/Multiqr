@@ -2,6 +2,7 @@ var QRCode = require("qrcode-svg");
 
 const inp = document.querySelectorAll(".inp");
 const outputDiv = document.querySelector(".output");
+const QRSIZE = 128;
 inp[4].addEventListener("click", () => {
   window.print();
 });
@@ -17,8 +18,8 @@ inp[3].addEventListener("click", () => {
       qr1 = new QRCode({
         content: `${basestr}${i}`,
         padding: 4,
-        width: 256,
-        height: 256,
+        width: QRSIZE,
+        height: QRSIZE,
         color: "#000000",
         background: "#ffffff",
         ecl: "M",
@@ -26,8 +27,8 @@ inp[3].addEventListener("click", () => {
       qr2 = new QRCode({
         content: `${basestr}${i + 1}`,
         padding: 4,
-        width: 256,
-        height: 256,
+        width: QRSIZE,
+        height: QRSIZE,
         color: "#000000",
         background: "#ffffff",
         ecl: "M",

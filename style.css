@@ -19,9 +19,14 @@ body {
   .output * {
     visibility: visible;
   }
-  .output {
+  /* .output {
     position: absolute;
     left: 0;
     top: 0;
+  } */
+  .content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
   }
 }

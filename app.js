@@ -9,6 +9,7 @@ inp[3].addEventListener("click", () => {
   let startNo = Number(inp[1].value);
   let endNo = Number(inp[2].value);
   let output = "";
+
   let qr1, qr2;
   for (let i = startNo; i <= endNo; i = i + 2) {
     qr1 = new QRCode({

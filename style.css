@@ -1,0 +1,8 @@
+body {
+  text-align: center;
+  margin: auto;
+}
+input {
+  border: 2px solid rebeccapurple;
+  padding: 3px;
+}

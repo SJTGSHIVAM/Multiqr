@@ -34,8 +34,10 @@ inp[3].addEventListener("click", () => {
         ecl: "M",
       }).svg();
       output += `<div class="content">
-    <div><span>${basestr}${i}<span><span>${qr1}</span></div>
-    <div><span>${basestr}${i + 1}<span><span>${qr2}</span></div>
+    <div class="inner-content"><div>${basestr}${i}</div><div>${qr1}</div></div>
+    <div class="inner-content"><div>${basestr}${
+        i + 1
+      }</div><div>${qr2}</div></div>
     </div>`;
     }
 

@@ -2,7 +2,12 @@ body {
   text-align: center;
   margin: auto;
 }
-input {
+/* input {
   border: 2px solid rebeccapurple;
   padding: 3px;
+} */
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
 }

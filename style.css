@@ -3,10 +3,15 @@ body {
   margin: auto;
   font-weight: bold;
 }
-/* input {
-  border: 2px solid rebeccapurple;
-  padding: 3px;
-} */
+label,
+input,
+button {
+  display: block;
+  margin: auto;
+  padding: 0.2rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
 .content {
   display: flex;
   justify-content: space-evenly;

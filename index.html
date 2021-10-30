@@ -2,25 +2,26 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <!-- <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'unsafe-inline'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'unsafe-inline'"
-    /> -->
     <title>MultiQR</title>
     <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
-    <input type="text" class="inp" />
-    <input type="number" class="inp" />
-    <input type="number" class="inp" />
+  <div class="hide">
+    <label for="basestr">Base String:</label>
+    <input type="text" id="basestr" class="inp" />
+    <label for="startno">Starting number:</label>
+    <input type="number" class="inp" id="startno" />
+    <label for="endno">ending number:</label>
+    <input type="number" class="inp" id="endno" />
     <button class="inp">genrate</button>
     <button class="inp">print</button>
+    </div>
     <div class="output"></div>
+    <div class="creator-info node">
+      check out other apps developedby me:
+      <a href="https://sjtgshivam.netlify.app"> here</a> and GitHub account:
+      <a href="https://github.com/SJTGSHIVAM"> here</a>
+    </div>
     <script src="./app.js"></script>
   </body>
 </html>
